@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#481522">
+  <meta name="description"
+    content="Discover an elevated salon experience with Maestro Salon. Explore hair styling, men's grooming, skincare, and bridal looks.">
+  <title>Maestro Salon | Crafting Confidence, Redefining Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/hero-poster.webp">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reference-theme.css">
+  <link rel="stylesheet" href="3d-match.css">
+</head>
+
+<body>
+  <div class="announcement">
+    <div class="shell announcement-inner"><span><span class="announce-sparkle">✦</span> Discover the Maestro Experience
+        <span class="ann-divider">•</span> Signature style, beautifully yours</span><span
+        class="announce-right"><span>Delhi NCR</span><span class="ann-divider">•</span><a href="#locations">Our
+          locations ↗</a></span></div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="shell nav-shell">
+      <a class="logo" href="/" aria-label="Maestro Salon homepage"><span
+          class="logo-crown">♛</span><strong>MAESTRO</strong><small>S A L O N</small></a>
+      <nav class="desktop-nav" aria-label="Primary navigation"><a class="active" href="#top">Home</a><a
+          href="#services">Services</a><a href="#rituals">Rituals</a><a href="#transformations">Transformations</a><a
+          href="#artists">Our Stylists</a><a href="#locations">Locations</a><a href="#gallery">Gallery</a><a
+          href="#experience">About Us</a></nav>
+      <button class="btn btn-wine nav-book js-book" data-service="" type="button"><span class="icon"
+          data-icon="calendar"></span><span>Book Appointment</span><span aria-hidden="true">↗</span></button>
+      <button class="mobile-menu-btn" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu"
+        aria-label="Open navigation"><span class="icon" data-icon="menu"></span></button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" hidden><a href="#top">Home</a><a
+        href="#services">Services</a><a href="#rituals">Rituals</a><a href="#transformations">Transformations</a><a
+        href="#artists">Our Stylists</a><a href="#experience">The Experience</a><a href="#locations">Locations</a><a
+        href="#reviews">Reviews</a><a href="#gallery">Gallery</a><button class="btn btn-wine js-book" type="button">Book
+        Appointment</button></nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Maestro Salon hero">
+      <img class="hero-image" src="assets/images/hero-poster.webp" alt="" aria-hidden="true"
+        fetchpriority="high">
+      <div class="hero-overlay"></div>
+      <div class="hero-deco hero-deco-left" aria-hidden="true"></div>
+      <div class="hero-deco hero-deco-right" aria-hidden="true"></div>
+      <div class="shell hero-content">
+        <div class="hero-copy">
+          <div class="eyebrow light">PREMIUM UNISEX SALON</div>
+          <h1>Crafting Confidence,<br><em>Redefining Style.</em></h1>
+          <p>Expert styling, advanced hair &amp; skin care, and personalised grooming rituals for the modern you.</p>
+          <div class="hero-actions"><button class="btn btn-gold js-book" type="button"><span>Book
+                Appointment</span><span aria-hidden="true">→</span></button><a class="btn btn-outline-light"
+              href="#services">Explore Services <span aria-hidden="true">→</span></a></div>
+          <a class="video-note" href="#experience">
+            <span class="video-circle" aria-hidden="true"><span class="icon" data-icon="play"></span></span>
+            <span>Watch Our Salon Experience</span>
+          </a>
+        </div>
+      </div>
+      <div class="gold-swoosh left" aria-hidden="true"></div>
+      <div class="gold-swoosh right" aria-hidden="true"></div>
+    </section>
+
+    <section class="usp-section shell" aria-label="Why choose Maestro">
+      <div class="usp-panel">
+        <div class="usp-item"><span class="usp-icon" data-icon="scissors"></span><span><strong>Master
+              Stylists</strong><small>Trained beauty experts</small></span></div>
+        <div class="usp-item"><span class="usp-icon" data-icon="leaf"></span><span><strong>Premium
+              Haircare</strong><small>Quality products &amp; care</small></span></div>
+        <div class="usp-item"><span class="usp-icon" data-icon="crown"></span><span><strong>VIP Styling
+              Experience</strong><small>Comfort &amp; personal care</small></span></div>
+        <div class="usp-item"><span class="usp-icon" data-icon="coffee"></span><span><strong>Relax &amp;
+              Refresh</strong><small>Enjoy your salon visit</small></span></div>
+      </div>
+    </section>
+
+    <section class="section section-services" id="services">
+      <div class="shell">
+        <div class="section-heading centered"><span class="eyebrow">EXPLORE OUR SERVICES</span>
+          <h2>The Maestro <em>Divisions</em></h2>
+          <p>A complete range of hair, skin, grooming and bridal services for everyone.</p>
+        </div>
+        <div class="category-grid">
+          <button class="category-card" data-category="women" type="button"><img src="assets/images/hair-model.webp"
+              alt="Indian woman with professionally styled brunette hair" loading="lazy"><span
+              class="category-shadow"></span><span class="cat-label"><small>FOR HER</small><strong>Women's
+                Styling<br>&amp; Colour</strong></span><span class="round-arrow" aria-hidden="true">↗</span></button>
+          <button class="category-card" data-category="men" type="button"><img src="assets/images/mens-grooming.webp"
+              alt="Indian man with professionally styled haircut and beard" loading="lazy"><span
+              class="category-shadow"></span><span class="cat-label"><small>FOR
+                HIM</small><strong>Men's<br>Grooming</strong></span><span class="round-arrow"
+              aria-hidden="true">↗</span></button>
+          <button class="category-card" data-category="skin" type="button"><img src="assets/images/skin-facial.webp"
+              alt="Indian woman enjoying a facial treatment" loading="lazy"><span class="category-shadow"></span><span
+              class="cat-label"><small>REJUVENATE</small><strong>Skin &amp;<br>Facials</strong></span><span
+              class="round-arrow" aria-hidden="true">↗</span></button>
+          <button class="category-card" data-category="bridal" type="button"><img src="assets/images/bridal-styling.webp"
+              alt="Indian bride with elegant traditional hair styling" loading="lazy"><span
+              class="category-shadow"></span><span class="cat-label"><small>YOUR BIG DAY</small><strong>Bridal &amp;
+                Groom<br>Packages</strong></span><span class="round-arrow" aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <div class="ornament ornament-l" aria-hidden="true">❦</div>
+      <div class="ornament ornament-r" aria-hidden="true">❦</div>
+    </section>
+
+    <section class="section rituals-section" id="rituals">
+      <div class="shell">
+        <div class="section-bar">
+          <div><span class="eyebrow">OUR SIGNATURE SERVICES</span>
+            <h2>Most Requested <em>Rituals</em></h2>
+            <p>Explore handpicked hair, skin and grooming rituals.</p>
+          </div>
+          <div class="filter-tabs" id="serviceTabs" aria-label="Filter services"><button type="button"
+              class="filter-tab active" data-filter="all" aria-pressed="true">All</button><button type="button"
+              class="filter-tab" data-filter="women" aria-pressed="false">Hair</button><button type="button"
+              class="filter-tab" data-filter="men" aria-pressed="false">Men</button><button type="button"
+              class="filter-tab" data-filter="skin" aria-pressed="false">Skin</button><button type="button"
+              class="filter-tab" data-filter="bridal" aria-pressed="false">Bridal</button></div>
+        </div>
+        <div class="ritual-grid" id="ritualGrid">
+          <article class="ritual-card" data-type="women" data-service="hair-spa">
+            <div class="ritual-photo"><img src="assets/images/hair-spa.webp"
+                alt="Professional hair spa and nourishing hair treatment" loading="lazy"><span class="photo-chip">HAIR
+                RITUAL</span></div>
+            <div class="ritual-details">
+              <h3>Hair Treatment</h3>
+              <p>Nourish, restore and rediscover your hair's natural shine.</p>
+              <div class="ritual-meta"><span>◷ 60–90 mins</span><span>From <b>₹1,899</b></span></div><button
+                class="ritual-book js-book" type="button" data-service="hair-spa">Book Now <span>→</span></button>
+            </div>
+          </article>
+          <article class="ritual-card" data-type="women" data-service="hair-colour">
+            <div class="ritual-photo"><img src="assets/images/hair-colour.webp"
+                alt="Glossy brunette hair with salon colour treatment" loading="lazy"><span class="photo-chip">COLOUR
+                STUDIO</span></div>
+            <div class="ritual-details">
+              <h3>Women's Styling</h3>
+              <p>Dimensional colour, beautiful texture and effortless finish.</p>
+              <div class="ritual-meta"><span>◷ 90–150 mins</span><span>From <b>₹2,499</b></span></div><button
+                class="ritual-book js-book" type="button" data-service="hair-colour">Book Now <span>→</span></button>
+            </div>
+          </article>
+          <article class="ritual-card" data-type="men" data-service="mens-cut">
+            <div class="ritual-photo"><img src="assets/images/mens-haircut.webp"
+                alt="Indian barber giving a precise men's haircut" loading="lazy"><span
+                class="photo-chip">GROOMING</span></div>
+            <div class="ritual-details">
+              <h3>Men's Haircut</h3>
+              <p>A contemporary haircut with a tailored finishing ritual.</p>
+              <div class="ritual-meta"><span>◷ 40–50 mins</span><span>From <b>₹699</b></span></div><button
+                class="ritual-book js-book" type="button" data-service="mens-cut">Book Now <span>→</span></button>
+            </div>
+          </article>
+          <article class="ritual-card" data-type="skin" data-service="facial">
+            <div class="ritual-photo"><img src="assets/images/skin-facial.webp"
+                alt="Relaxing facial and skincare session" loading="lazy"><span class="photo-chip">SKIN RITUAL</span>
+            </div>
+            <div class="ritual-details">
+              <h3>Facial Care</h3>
+              <p>Gentle cleansing, hydration and a moment to recharge.</p>
+              <div class="ritual-meta"><span>◷ 60 mins</span><span>From <b>₹1,499</b></span></div><button
+                class="ritual-book js-book" type="button" data-service="facial">Book Now <span>→</span></button>
+            </div>
+          </article>
+          <article class="ritual-card" data-type="bridal" data-service="bridal">
+            <div class="ritual-photo"><img src="assets/images/bridal-styling.webp"
+                alt="Elegant Indian bridal styling with floral hair arrangement" loading="lazy"><span
+                class="photo-chip">SPECIAL OCCASIONS</span></div>
+            <div class="ritual-details">
+              <h3>Bridal Services</h3>
+              <p>Beautifully considered hair and makeup for your celebration.</p>
+              <div class="ritual-meta"><span>◷ 2–4 hours</span><span>From <b>₹9,999</b></span></div><button
+                class="ritual-book js-book" type="button" data-service="bridal">Book Now <span>→</span></button>
+            </div>
+          </article>
+        </div>
+        <p class="fineprint">Illustrative demo services, pricing and imagery. Confirm availability and prices with the
+          salon.</p>
+      </div>
+    </section>
+
+    <section class="transform-section" id="transformations">
+      <div class="shell transform-grid">
+        <div class="transform-copy"><span class="eyebrow light">REAL CLIENT TRANSFORMATIONS</span>
+          <h2>Transformations<br><em>in Colour &amp; Texture</em></h2>
+          <p>See the effect of expert colour, thoughtful styling and care—tailored to you.</p><span
+            class="transform-footnote">Interactive styling preview · illustrative photography</span>
+        </div>
+        <div class="compare-wrap">
+          <div class="comparison" id="comparison" tabindex="0" role="slider" aria-label="Compare styling images"
+            aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img class="compare-after"
+              src="assets/images/hair-after.webp" alt="Indian woman with glossy, colour-styled hair">
+            <div class="compare-before-wrap" id="compareBefore"><img class="compare-before"
+                src="assets/images/hair-model.webp" alt="Indian woman before her hair colour transformation"></div>
+            <div class="compare-line" id="compareLine"><span class="compare-handle">‹ ›</span></div><span
+              class="compare-tag before-tag">BEFORE</span><span class="compare-tag after-tag">AFTER</span>
+          </div>
+        </div>
+      </div>
+      <div class="transform-floral floral-a" aria-hidden="true">✧</div>
+      <div class="transform-floral floral-b" aria-hidden="true">✧</div>
+    </section>
+
+    <section class="section artists-section" id="artists">
+      <div class="shell">
+        <div class="section-bar artist-heading">
+          <div><span class="eyebrow">MEET OUR EXPERTS</span>
+            <h2>Master Artists &amp; <em>Style Directors</em></h2>
+            <p>A team of passionate stylists, colourists and beauty experts dedicated to your style.</p>
+          </div><button class="text-link js-book" type="button">Meet the team <span>→</span></button>
+        </div>
+        <div class="artist-grid">
+          <article class="artist-card"><img src="assets/images/stylist-aryan.webp"
+              alt="Illustrative portrait of a male salon stylist" loading="lazy">
+            <div><span class="role">HAIR ARTISTRY</span>
+              <h3>Aarav</h3>
+              <p>Colour &amp; Hair Styling</p>
+              <p class="artist-experience"><strong>12</strong> Years Experience</p>
+              <button class="artist-cta js-book" data-stylist="Aarav" type="button">Book
+                a session ↗</button>
+            </div>
+          </article>
+          <article class="artist-card"><img src="assets/images/stylist-riya.webp"
+              alt="Illustrative portrait of a makeup artist" loading="lazy">
+            <div><span class="role">MAKEUP ARTISTRY</span>
+              <h3>Riya</h3>
+              <p>Bridal &amp; Occasion</p>
+              <p class="artist-experience"><strong>12</strong> Years Experience</p>
+              <button class="artist-cta js-book" data-stylist="Riya" type="button">Book a
+                session ↗</button>
+            </div>
+          </article>
+          <article class="artist-card"><img src="assets/images/mens-grooming.webp"
+              alt="Illustrative portrait used for a grooming stylist demo" loading="lazy">
+            <div><span class="role">GROOMING</span>
+              <h3>Kabir</h3>
+              <p>Men's Hair &amp; Beard</p>
+              <p class="artist-experience"><strong>12</strong> Years Experience</p>
+              <button class="artist-cta js-book" data-stylist="Kabir" type="button">Book a
+                session ↗</button>
+            </div>
+          </article>
+          <article class="artist-card"><img src="assets/images/stylist-anika.webp"
+              alt="Illustrative portrait of a female salon stylist" loading="lazy">
+            <div><span class="role">BEAUTY EXPERT</span>
+              <h3>Anika</h3>
+              <p>Skin &amp; Beauty</p>
+              <p class="artist-experience"><strong>12</strong> Years Experience</p>
+              <button class="artist-cta js-book" data-stylist="Anika" type="button">Book a
+                session ↗</button>
+            </div>
+          </article>
+
+
+        </div>
+        <p class="fineprint">Stylist profiles are illustrative demo content until the salon provides its official team
+          details.</p>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="shell experience-grid">
+        <div class="experience-copy"><span class="eyebrow">INSIDE MAESTRO</span>
+          <h2>The Maestro Experience</h2>
+          <p>A luxurious, comfort-focused salon experience with considered care, premium products and expert styling.
+          </p>
+          <div class="experience-points"><span><i data-icon="gem"></i> Elevated surroundings</span><span><i
+                data-icon="shield"></i> Thoughtful care</span><span><i data-icon="heart"></i> Personalised
+              attention</span></div><button class="btn btn-outline-wine js-book" type="button">Discover your experience
+            ↗</button>
+        </div>
+        <div class="interior-photo"><img src="assets/images/salon-interior.webp"
+            alt="Illustrative premium salon interior with warm mirror lighting" loading="lazy">
+          <div class="interior-badge">MAESTRO <small>S A L O N</small></div>
+        </div>
+        <div class="experience-stat" aria-label="Our experience highlights">
+          <div class="stat-item"><span data-icon="calendar"></span><strong>Expert</strong><small>Hair Artistry</small>
+          </div>
+          <div class="stat-item"><span data-icon="heart"></span><strong>Personal</strong><small>Beauty Care</small>
+          </div>
+          <div class="stat-item"><span data-icon="navigation"></span><strong>Delhi NCR</strong><small>Salon
+              Areas</small></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="locale-reviews-pair">
+      <section class="section locations-section" id="locations">
+        <div class="shell">
+          <div class="section-bar">
+            <div><span class="eyebrow">OUR DELHI NCR LOCATIONS</span>
+              <h2>Luxury, <em>Closer to You</em></h2>
+              <p>Discover salon listings near you in Delhi; verify each listing before visiting.</p>
+            </div><button class="btn btn-outline-wine" id="nearestBtn" type="button"><span
+                data-icon="navigation"></span><span>Sort by nearby area</span></button>
+          </div>
+          <div class="location-grid" id="locationGrid"></div><button class="location-expand" type="button"
+            id="showAllLocations" aria-expanded="false">Explore all salon areas <span
+              aria-hidden="true">→</span></button>
+          <p class="fineprint" id="locationNotice">Listings are examples based on areas shared by you; shared ownership,
+            street addresses and official branch status still need verification.</p>
+        </div>
+      </section>
+
+      <section class="reviews-section" id="reviews">
+        <div class="shell review-grid">
+          <div><span class="eyebrow light">CLIENT EXPERIENCES</span>
+            <h2>Voices of <em>Distinction</em></h2>
+            <p>Explore the care and attention behind our salon experience.</p>
+          </div>
+          <div class="quote-box">
+            <div class="quote-graphic">“</div>
+            <blockquote id="quoteText">A great salon visit feels personal—someone listens, understands your style and
+              helps you leave feeling like yourself.</blockquote>
+            <div class="quote-author"><span class="quote-avatar"><img id="quoteAvatar"
+                  src="assets/images/hair-model.webp" alt="Illustrative beauty portrait"></span><span><strong
+                  id="quoteAuthor">The Maestro Feeling</strong><small>Sample testimonial design, not a verified client
+                  review</small></span></div>
+            <div class="quote-arrows"><button id="prevQuote" aria-label="Previous testimonial" type="button"><svg
+                  viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 18-6-6 6-6"/></svg></button><button
+                id="nextQuote" aria-label="Next testimonial" type="button"><svg viewBox="0 0 24 24"
+                  aria-hidden="true"><path d="m9.5 18 6-6-6-6"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <section class="gallery-section" id="gallery">
+      <div class="shell">
+        <div class="section-bar gallery-heading">
+          <div><span class="eyebrow">A GLIMPSE OF OUR WORLD</span>
+            <h2>Visual Chronicles <em>from the Salon</em></h2>
+          </div><div class="gallery-actions"><button class="gallery-toggle" id="galleryToggle" type="button"
+              aria-controls="galleryGrid" aria-expanded="false">Explore Looks <span
+                aria-hidden="true">↓</span></button></div>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button type="button" class="gallery-item" data-image="hair-colour" aria-label="View hair colour photo">
+            <img src="assets/images/hair-colour.webp" alt="Glossy brunette hair colour and shine" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="mens-grooming" aria-label="View grooming photo">
+            <img src="assets/images/mens-grooming.webp" alt="Men's grooming with a tailored haircut and beard"
+              loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="skin-facial" aria-label="View skincare photo">
+            <img src="assets/images/skin-facial.webp" alt="Relaxing facial treatment" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="bridal-styling" aria-label="View bridal photo">
+            <img src="assets/images/bridal-styling.webp" alt="Indian bridal hair and makeup styling" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="salon-interior" aria-label="View salon interior photo">
+            <img src="assets/images/salon-interior.webp" alt="Warmly lit premium salon interior" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="hair-spa" aria-label="View hair spa photo" hidden>
+            <img src="assets/images/hair-spa.webp" alt="Hair spa treatment at the wash station" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="mens-haircut" aria-label="View haircut photo" hidden>
+            <img src="assets/images/mens-haircut.webp" alt="Barber shaping a modern men's haircut" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="hair-model" aria-label="View styled hair portrait"
+            hidden>
+            <img src="assets/images/hair-model.webp" alt="Long, softly curled brunette hairstyle" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="hero-styling" aria-label="View hair styling session"
+            hidden>
+            <img src="assets/images/hero-styling.webp" alt="Stylist shaping a client's long hair" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="stylist-anika" aria-label="View beauty expert portrait"
+            hidden>
+            <img src="assets/images/stylist-anika.webp" alt="Beauty expert with professional makeup brushes"
+              loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="stylist-riya" aria-label="View makeup artist portrait"
+            hidden>
+            <img src="assets/images/stylist-riya.webp" alt="Makeup artist in the salon" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="stylist-aryan"
+            aria-label="View men's stylist portrait" hidden>
+            <img src="assets/images/stylist-aryan.webp" alt="Men's stylist in a salon apron" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="hero-reference"
+            aria-label="View a finished salon style" hidden>
+            <img src="assets/images/hero-reference.webp" alt="Client admiring her finished salon hairstyle"
+              loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="ref-interior"
+            aria-label="View another salon interior" hidden>
+            <img src="assets/images/ref-interior.webp" alt="Salon stations framed by warm lights and greenery"
+              loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-image="hero-poster"
+            aria-label="View salon styling and interior" hidden>
+            <img src="assets/images/hero-poster.webp" alt="Salon hair styling session and interior" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="shell cta-grid"><img src="assets/images/hair-model.webp" class="cta-model"
+          alt="Illustrative Indian model with styled hair" loading="lazy">
+        <div class="cta-copy"><span class="eyebrow light">BOOK YOUR NEXT RITUAL</span>
+          <h2>Experience True Luxury,<br><em>Tailored Entirely to You.</em></h2>
+          <p>Hair, skin and grooming—beautifully tailored to your style.</p>
+        </div>
+        <div class="cta-buttons"><button type="button" class="btn btn-gold js-book">Book Your Appointment ↗</button><a
+            href="#rituals" class="btn btn-outline-light">Explore Services ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div class="footer-about"><a class="logo footer-logo" href="/"><span
+            class="logo-crown">♛</span><strong>MAESTRO</strong><small>S A L O N</small></a>
+        <p>Great style begins with feeling good. Explore premium-inspired hair, skin, grooming and beauty experiences.
+        </p>
+        <div class="footer-social"><button type="button" aria-label="View Instagram information" class="social-btn"
+            data-social="Instagram">ig</button><button type="button" aria-label="View Facebook information"
+            class="social-btn" data-social="Facebook">f</button><button type="button"
+            aria-label="View Pinterest information" class="social-btn" data-social="Pinterest">p</button></div>
+      </div>
+      <div>
+        <h3>Explore</h3><a href="#top">Home</a><a href="#services">Our Services</a><a href="#artists">Our Stylists</a><a
+          href="#experience">Our Story</a><a href="#gallery">Gallery</a>
+      </div>
+      <div>
+        <h3>Our Rituals</h3><a href="#rituals">Hair &amp; Styling</a><a href="#rituals">Men's Grooming</a><a
+          href="#rituals">Skin &amp; Facials</a><a href="#rituals">Bridal Styling</a><a
+          href="#transformations">Transformations</a>
+      </div>
+      <div>
+        <h3>Visit Maestro</h3><a href="#locations">GTB Nagar area</a><a href="#locations">Pitampura area</a><a
+          href="#locations">New Moti Nagar area</a><a href="#locations">Saraswati Garden area</a><small>Exact locations
+          to be verified.</small>
+      </div>
+      <div>
+        <h3>Stay in Touch</h3>
+        <p>Interested in an appointment? Share a request or explore the listings.</p><button type="button"
+          class="footer-contact js-book">Request a consultation ↗</button><a class="footer-location"
+          href="#locations">Explore salon areas →</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom"><span>© 2026 Maestro Salon · Interactive design concept</span><span>Sample imagery
+        and booking demo · Not an official branch directory</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <button class="whatsapp-float" id="whatsappFloat" type="button" aria-label="Open WhatsApp concierge"><span
+      class="icon" data-icon="message-circle"></span><span>WhatsApp Concierge</span></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal-backdrop" id="bookingModal" hidden>
+    <section class="dialog booking-dialog" role="dialog" aria-modal="true" aria-labelledby="bookingTitle"><button
+        class="dialog-close" data-close="bookingModal" aria-label="Close booking" type="button">×</button>
+      <div class="booking-top"><span class="eyebrow">YOUR MAESTRO MOMENT</span>
+        <h2 id="bookingTitle">Book an <em>Appointment</em></h2>
+        <p>Plan your preferred service in a few easy steps.</p>
+        <div class="step-dots" id="stepDots" aria-label="Booking progress"><span
+            class="active">1</span><span>2</span><span>3</span><span>4</span></div>
+      </div>
+      <div class="booking-body" id="bookingBody"></div>
+      <div class="booking-actions"><button id="bookingBack" class="btn btn-outline-wine" type="button">←
+          Back</button><button id="bookingNext" class="btn btn-wine" type="button">Continue →</button></div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="mapModal" hidden>
+    <section class="dialog map-dialog" role="dialog" aria-modal="true" aria-labelledby="mapTitle"><button
+        class="dialog-close" data-close="mapModal" aria-label="Close map" type="button">×</button><span
+        class="eyebrow">EXPLORE THIS AREA</span>
+      <h2 id="mapTitle">Find a <em>Salon</em></h2>
+      <p id="mapAddress">View salon search results on Google Maps.</p>
+      <div class="map-frame-wrap"><iframe id="mapFrame" title="Google Maps location search" src="about:blank"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="map-actions"><a class="btn btn-gold" target="_blank" rel="noopener noreferrer" id="mapOpen"
+          href="#">Search on Google Maps ↗</a><button class="btn btn-outline-wine js-book" id="mapBook"
+          type="button">Book a demo visit</button></div>
+      <p class="fineprint" id="mapNotice">Area search only; the exact salon address has not been confirmed.</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="galleryModal" hidden>
+    <section class="dialog lightbox-dialog" role="dialog" aria-modal="true" aria-label="Gallery image"><button
+        class="dialog-close" data-close="galleryModal" aria-label="Close gallery image" type="button">×</button><img
+        id="galleryLarge" src="assets/images/hair-colour.webp" alt="Salon photo in gallery">
+      <p>Maestro aesthetic · illustrative salon imagery</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="whatsappModal" hidden>
+    <section class="dialog whatsapp-dialog" role="dialog" aria-modal="true" aria-labelledby="whatsappTitle"><button
+        class="dialog-close" data-close="whatsappModal" aria-label="Close WhatsApp dialog" type="button">×</button><span
+        class="eyebrow">LET'S CONNECT</span>
+      <h2 id="whatsappTitle">Maestro <em>Concierge</em></h2>
+      <p>Prepare an enquiry message to share on WhatsApp. Add the salon's confirmed WhatsApp number in
+        <code>script.js</code> to send directly to the salon.</p><label for="whatsMessage">Your message</label><textarea
+        id="whatsMessage"
+        rows="4">Hello! I would like to enquire about Maestro Salon services and appointment availability.</textarea>
+      <div class="whatsapp-actions"><button type="button" class="btn btn-outline-wine" id="copyWhatsapp">Copy
+          message</button><button type="button" class="btn btn-wine" id="shareWhatsapp">Open WhatsApp ↗</button></div>
+      <p class="fineprint" id="whatsappHint">Without a configured number, WhatsApp will open its share flow rather than
+        contacting a salon automatically.</p>
+    </section>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

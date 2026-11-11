@@ -22,6 +22,7 @@ const paths={
   sparkles:'<path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3ZM19 17l.7 2.3L22 20l-2.3.7L19 23l-.7-2.3L16 20l2.3-.7L19 17Z"/>',
   navigation:'<path d="m3 11 19-9-9 19-2-8-8-2Z"/>',
   'message-circle':'<path d="M21 11.5a8.4 8.4 0 0 1-1.5 4.8A9 9 0 0 1 12 20a8.4 8.4 0 0 1-4.8-1.5L2 20l1.5-5.2A8.4 8.4 0 0 1 2 10a9 9 0 0 1 3.7-7.5A8.4 8.4 0 0 1 10.5 1H12a9 9 0 0 1 9 9v1.5Z"/>',
+  whatsapp:'<path d="M20.5 3.5A11.4 11.4 0 0 0 2.6 17.2l-1.1 5.3 5.4-1.4A11.4 11.4 0 1 0 20.5 3.5Z"/><path d="M8 7.2c-.3-.4-.7-.4-1-.4h-.8c-.3 0-.7.2-1 .6-.4.4-1.2 1.3-1.2 3s1.2 3.2 1.4 3.4c.2.2 2.4 3.8 6 5.1 3 .9 3.6.7 4.3.6.7-.1 2-.9 2.3-1.7.3-.8.3-1.5.2-1.7-.1-.2-.3-.3-.7-.5l-2-.9c-.3-.1-.5-.2-.7.2-.2.4-.8 1-1 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.2-.7.2-.2.4-.4.5-.6.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5L8.5 7.7c-.2-.3-.3-.4-.5-.5Z"/>',
 };
 function icon(name){return `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">${paths[name]||paths.sparkles}</svg>`}
 $$('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
@@ -42,7 +43,6 @@ function toast(message){const box=$('#toast');box.textContent=message;box.classL
 $('#menuToggle').addEventListener('click',()=>{
  const nav=$('#mobileMenu'),open=nav.hidden;nav.hidden=!open;$('#menuToggle').setAttribute('aria-expanded',String(open));$('#menuToggle').setAttribute('aria-label',open?'Close navigation':'Open navigation');
 });
-$$('#mobileMenu a').forEach(a=>a.addEventListener('click',()=>{ $('#mobileMenu').hidden=true;$('#menuToggle').setAttribute('aria-expanded','false');}));
 // Modal management, escape and backdrop clicks.
 let lastFocused=null;
 function openModal(id){lastFocused=document.activeElement;const el=document.getElementById(id);el.hidden=false;document.body.style.overflow='hidden';setTimeout(()=>{(el.querySelector('.dialog-close')||el).focus()},25)}

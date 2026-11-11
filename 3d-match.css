@@ -311,3 +311,9 @@ body {overflow-x:clip; background:#fff3e7}
 @media(max-width:700px){.hero-image{object-position:94% 32%}}
 *{scrollbar-width:none!important;-ms-overflow-style:none!important}
 *::-webkit-scrollbar{display:none!important}
+.desktop-nav span{font-size:clamp(9px,.74vw,11px);font-weight:800;color:#f8eae0;position:relative;white-space:nowrap;padding:11px 0}
+.desktop-nav span.active{color:#f6d18c}
+.desktop-nav span.active::after{position:absolute;content:'';height:2px;bottom:3px;left:0;width:100%;background:#edbd65}
+.mobile-menu span{padding:12px;border-radius:7px;color:#ffe5c5;font-size:12px;font-weight:800}
+@media(min-width:900px) and (max-width:1050px){.desktop-nav span{font-size:8px}}
+@media(min-width:701px){.whatsapp-float .icon{width:21px;height:21px}}
